@@ -8,4 +8,4 @@ Our Stars
 
 Our Visits
 
-![Visitors](https://visitor-badge.glitch.me/badge?page_id=EliteScript)
+<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/ZerroDevs/EliteScript?color=gold&label=Visitors&logo=python&logoColor=blue&style=flat-square">
