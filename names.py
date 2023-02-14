@@ -1,5 +1,4 @@
-{
-    "names": [
+names = [
         {
             "name": "Ash",
             "info": "(-0,1)"
