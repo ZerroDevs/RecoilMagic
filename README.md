@@ -1,7 +1,7 @@
 # RainBow Six Sige Logitch Script 
 
 ##This Is a simple program with python tkinter , give you the r6s scripts that work on logitech hub program 
- 
+ Not All Operetors Has benn added , working to add all operetors , will be added soon , next update V1.0.1
 Our Stars 
 
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ZerroDevs/EliteScript?color=gold&label=Stars&logo=python&logoColor=blue&style=flat-square">
