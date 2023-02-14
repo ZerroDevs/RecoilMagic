@@ -1,4 +1,4 @@
-data = {
+{
     "names": [
         {
             "name": "Ash",
