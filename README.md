@@ -1,4 +1,4 @@
-# RainBow Six Sige Logitch Script 
+# RainBow Six Sige Scripts
 
 This Is a simple program with python tkinter , give you the r6s scripts that work on logitech hub program 
 
