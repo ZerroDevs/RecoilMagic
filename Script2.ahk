@@ -60,7 +60,7 @@ LButton Up::
 
 MoveMouseDown:
     MouseGetPos, x, y
-    MouseMove, x, y+1, 0
+    MouseMove, x, y+2, 0
     return
 
 CheckMouse:
