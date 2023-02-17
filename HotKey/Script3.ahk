@@ -1,10 +1,10 @@
-#NoEnv
-; #Warn
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#SingleInstance force ; Ensures only one instance of the script is running at a time.
+
 SendMode Input
 SetWorkingDir %A_ScriptDir%
 
 Gui +OwnDialogs
-;Gui Color, 0x1E1E1E ; Set the background color to a dark gray
 Gui Add, Text, , Select lock key to run the script :  
 Gui Add, DropDownList, vLockKey gSetLockKey, Capslock|Numlock|Scrolllock
 Gui Add, Text, , Select Exit HotKey : 
@@ -44,38 +44,26 @@ F12::
 
 #If GetKeyState(LockKey, "T")
 
-RButton & LButton::
-    MouseGetPos, x, y
-    SetTimer, MoveMouseDown, 10
-    return
+DllCall("user32.dll\SetMouseVanish", "UInt", 0)  ; Enable primary mouse button events
 
-RButton Up::
-    SetTimer, MoveMouseDown, Off
-    SetTimer, CheckMouse, 10
-    return
+IsKeyLockOn(LockKey) {
+    state := GetKeyState(LockKey, "T")
+    return state
+}
 
-LButton Up::
-    SetTimer, MoveMouseDown, Off
-    SetTimer, CheckMouse, 10
-    return
-
-MoveMouseDown:
-    MouseGetPos, x, y
-    MouseMove, x, y+3, 0
-    return
-
-CheckMouse:
-    if !GetKeyState("LButton", "P") && !GetKeyState("RButton", "P") {
-        SetTimer, MoveMouseDown, Off
-        if (WinExist("ahk_class AutoHotkeyGUI") && WinActive("ahk_class AutoHotkeyGUI"))
-            SetTimer, CheckMouse, 10
-        else
-            SetTimer, CheckMouse, Off
+; Main event loop
+#If (IsKeyLockOn(LockKey))  ; Apply this hotkey modifier only if Numlock is on
+$RButton::
+    Loop {
+        if (GetKeyState("LButton", "P")) {  ; Check if left mouse button is pressed
+            Loop {
+                ; Move the mouse down two pixels and sleep for 9 milliseconds
+                DllCall("user32.dll\mouse_event", "UInt", 1, "Int", 0, "Int", 3, "UInt", 0, "UInt", 0)
+                Sleep, 9
+            } until (!GetKeyState("LButton", "P"))  ; Stop the loop when left mouse button is released
+        }
+        else if (!GetKeyState("RButton", "P")) {  ; Stop the loop when right mouse button is released
+            break
+        }
     }
-    else if (WinExist("ahk_class AutoHotkeyGUI") && !WinActive("ahk_class AutoHotkeyGUI"))
-        WinActivate, ahk_class AutoHotkeyGUI
-    return
-
-    GuiClose:
-    ExitApp
-    Return
+Return
