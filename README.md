@@ -1,6 +1,6 @@
 # RecoilMagic, Is Script to reduce Rainbow 6 Sige guns Recoil
 
-You Need To Download AutoHotKey To The Scripts Work With you , Download V1.1 
+Make Sure To Download AutoHotKey To The Scripts Work With you , Download V1.1 
 
 https://www.autohotkey.com/
 
