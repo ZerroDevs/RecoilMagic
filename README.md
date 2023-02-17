@@ -1,4 +1,4 @@
-# RainBow Six Sige Scripts
+# Elite Scripts , is Scripts For Multiple games and now its only for Rainbow 6 Sige
 
 This Is a simple program with python tkinter , give you the r6s scripts that work on logitech hub program 
 
