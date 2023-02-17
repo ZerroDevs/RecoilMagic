@@ -4,12 +4,13 @@ SendMode Input
 SetWorkingDir %A_ScriptDir%
 
 Gui +OwnDialogs
-Gui Add, Text, , Select the default lock key:
+;Gui Color, 0x1E1E1E ; Set the background color to a dark gray
+Gui Add, Text, , Select lock key to run the script :  
 Gui Add, DropDownList, vLockKey gSetLockKey, Capslock|Numlock|Scrolllock
-Gui Add, Text, , Press the key combination to use as the exit hotkey:
+Gui Add, Text, , Select Exit HotKey : 
 Gui Add, Hotkey, vExitHotkey, F12
 Gui Add, Button, x+20 y+20 w100 h30 gExitScript, Close Window
-Gui Show, w250 h160, Exit Hotkey
+Gui Show, w250 h140, Recoil Magic
 
 if ErrorLevel
     MsgBox, 16, Error, Failed to create GUI.
@@ -74,3 +75,7 @@ CheckMouse:
     else if (WinExist("ahk_class AutoHotkeyGUI") && !WinActive("ahk_class AutoHotkeyGUI"))
         WinActivate, ahk_class AutoHotkeyGUI
     return
+
+    GuiClose:
+    ExitApp
+    Return
