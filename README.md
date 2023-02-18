@@ -23,4 +23,6 @@ Our Stars
 
 Our Visits
 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=RecoilMagic)
+
 <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/ZerroDevs/EliteScript?color=gold&label=Visitors&logo=python&logoColor=blue&style=flat-square">
