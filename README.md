@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="ot"https://github.com/ZerroDevs/RecoilMagic><img src="https://media.discordapp.net/attachments/748346465285570603/1076175149679784107/New_Project_280_B8630F9.png?width=907&height=408" alt="VisionTable"></a>
+  <a href="ot"https://github.com/ZerroDevs/RecoilMagic ><img src="https://media.discordapp.net/attachments/748979568009805885/1076276330708078755/New_Project_280_B8630F9_1.png?width=907&height=408" alt="RecoilMagic"></a>
   <br>
-  Recoil Magic!
+  Recoil Magic
   <br>
 </h1>
 <br/>
