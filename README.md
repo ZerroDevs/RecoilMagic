@@ -7,21 +7,20 @@
 </h1>
 <br/>
 
-# RecoilMagic, Is Script to reduce Rainbow 6 Sige guns Recoil
+![Visitors](https://visitor-badge.glitch.me/badge?page_id=RecoilMagic)
+![Stars](https://img.shields.io/github/stars/Vision-Table/RecoilMagic)
+![Size](https://img.shields.io/github/repo-size/Vision-Table/RecoilMagic)
+<br/>
+
+# This script is reducing recoil effect in r6s game
+
+It's Not a cheat it's not removing all recoil it's only reduce it , you still need to move the mouse
 
 Make Sure To Download AutoHotKey To The Scripts Work With you , Download V1.1 
 
 https://www.autohotkey.com/
 
-This Is a simple program with python tkinter , give you the r6s scripts that work on logitech hub program 
+This Program Bulit With AHK language
 
-Not All Operetors Has benn added , working to add all operetors , will be added soon , next update V1.0.1
+Not All Operetors Has benn added , working to add all operetors , will be added soon 
  
-Our Stars 
-
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ZerroDevs/EliteScript?color=gold&label=Stars&logo=python&logoColor=blue&style=flat-square">
-
-Our Visits
-
-![visitors](https://visitor-badge.glitch.me/badge?page_id=RecoilMagic)
-
