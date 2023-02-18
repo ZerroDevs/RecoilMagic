@@ -8,8 +8,8 @@
 <br/>
 
 ![Visitors](https://visitor-badge.glitch.me/badge?page_id=RecoilMagic)
-![Stars](https://img.shields.io/github/stars/Vision-Table/RecoilMagic)
-![Size](https://img.shields.io/github/repo-size/Vision-Table/RecoilMagic)
+![Stars](https://img.shields.io/github/stars/ZerroDevs/RecoilMagic)
+![Size](https://img.shields.io/github/repo-size/ZerroDevs/RecoilMagic)
 <br/>
 
 # This script is reducing recoil effect in r6s game
