@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="ot"https://github.com/ZerroDevs/RecoilMagic ><img src="https://media.discordapp.net/attachments/1076164645485813791/1076165276837613680/New_Project_280_B8630F9.png?width=661&height=661?width=907&height=408" alt="RecoilMagic"></a>
+  <a href="ot"https://github.com/ZerroDevs/RecoilMagic ><img src="https://media.discordapp.net/attachments/1076164645485813791/1076165276837613680/New_Project_280_B8630F9.png?width=907&height=408" alt="RecoilMagic"></a>
   <br>
   RecoilMagic
   <br>
